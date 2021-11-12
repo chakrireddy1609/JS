@@ -6,7 +6,8 @@ let user = {
 
     name : "Chakri",
     age : 32,
-    designation : "QA"
+    designation : "QA",
+    role : "Lead"
 
 };
 console.log(user);
