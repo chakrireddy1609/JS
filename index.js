@@ -33,3 +33,24 @@ function square(num1){
 
 let square_result = square(9);
 console.log(square_result)
+
+let p = 1;
+console.log(p++);
+console.log(++p);
+
+let points = 110;
+let membership = points > 100 ? 'gold' : 'silver';
+console.log(membership);
+
+for (let i = 0; i <= 10; i++){
+    console.log("Hello, this is a for loop");
+    console.log(i);
+}
+
+let i = 3;
+while(i<=10){
+    console.log("Hello, this is a while loop");
+    console.log(i);
+    i++
+    
+}
