@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Grading System</title>
+    </head>
+    <body>
+        <script>
+            var javascriptmarks = parseFloat(prompt("Enter marks scored in javascript"));
+            var javamarks = parseFloat(prompt("Enter marks scored in java"));
+            var dotnetmarks = parseFloat(prompt("Enter marks scored in dotnet"));
+            total = javamarks+javascriptmarks+dotnetmarks;
+            average = total/3
+
+            if (javascriptmarks > 35 && javamarks > 35 && dotnetmarks > 35){
+                document.write("You have passed</br>");
+                if (average > 35 && average < 59 ){
+                    document.write("Your grade is C");}
+                    else if (average > 59 && average < 69){
+                        document.write("Your grade is B");                       
+                    }
+                    else{
+                        document.write("Your grade is A");                       
+                    }
+
+                }
+                else {
+                    document.write("You have failed")
+                }
+        </script>
+    </body>
+</html>
