@@ -17,8 +17,11 @@
                     else if (average > 59 && average < 69){
                         document.write("Your grade is B");                       
                     }
-                    else{
-                        document.write("Your grade is A");                       
+                    else if (average>100){
+                        document.write("Invalid input");                       
+                    }
+                    else {
+                        document.write("Your grade is A")
                     }
 
                 }
