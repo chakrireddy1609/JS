@@ -1,0 +1,21 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            function mouseOver(x){
+                x.style.color = "red";
+                x.style.backgroundColor = "Yellow";
+                x.innerHTML = "MouseOver"
+            }
+
+            function mouseOut(x){
+                x.style.color = "pink";
+                x.style.backgroundColor = "blue";
+                x.innerHTML = "MouseOut"
+            }
+        </script>
+        <p onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"> Up/Down </p>
+    </body>
+</html>
