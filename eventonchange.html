@@ -1,0 +1,18 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            function onChangeWebsite(x){
+                window.location = x.value;
+            }
+        </script>
+        <select onchange="onChangeWebsite(this)">
+            <option value="">Select a website</option>
+            <option value="https://mojo2.joveo.com/clients">Mojo Prod</option>
+            <option value ="https://mojo2.staging.joveo.com/clients">Mojo Staging</option>
+
+        </select>
+    </body>
+</html>
